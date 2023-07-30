@@ -5,7 +5,7 @@ const ResponseCode = {
     DATA_DUPLICATION: "90",
     INVALID_OTP: "89",
     UNAUTHORIZED: "86",
-    INVALID_TOKEN: "80"
+    INVALID_TOKEN: "80" 
 }
    
 exports.ResponseCode = ResponseCode
