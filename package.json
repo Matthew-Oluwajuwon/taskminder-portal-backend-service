@@ -28,8 +28,7 @@
     "swagger-ui-express": "^4.6.3"
   },
   "devDependencies": {
-    "@babel/cli": "^7.22.9",
-    "@babel/preset-env": "^7.22.9",
-    "babel-cli": "^6.26.0"
+    "@babel/cli": "^7.15.0",
+    "@babel/preset-env": "^7.15.0"
   }
 }
