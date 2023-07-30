@@ -7,5 +7,5 @@ const ResponseCode = {
     UNAUTHORIZED: "86",
     INVALID_TOKEN: "80"
 }
- 
+   
 exports.ResponseCode = ResponseCode
