@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon index.js",
-    "build": "npx babel src -d dist"
+    "start": "node index.js"
   },
   "keywords": [],
   "author": "",
@@ -19,17 +18,12 @@
     "joi": "^17.9.2",
     "jsonwebtoken": "^9.0.0",
     "mongodb": "^5.7.0",
-    "mongoose": "^7.1.1",
+    "mongoose": "^6.10.1",
     "netlify-lambda": "^2.0.16",
     "nodemailer": "^6.9.2",
     "nodemon": "^2.0.22",
     "serverless-http": "^3.2.0",
     "swagger-jsdoc": "^6.2.8",
     "swagger-ui-express": "^4.6.3"
-  },
-  "devDependencies": {
-    "@babel/cli": "^7.15.0",
-    "@babel/preset-env": "^7.15.0",
-    "babel-cli": "^6.26.0"
   }
 }
