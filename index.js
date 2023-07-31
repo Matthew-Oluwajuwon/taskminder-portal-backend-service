@@ -1,7 +1,6 @@
 const express = require("express");
 const dotenv = require("dotenv");
 const mongoose = require("mongoose");
-const serverless = require("serverless-http")
 const cors = require("cors");
 const swaggerJsdoc = require("swagger-jsdoc");
 const swaggerUi = require("swagger-ui-express");
@@ -86,5 +85,3 @@ mongoose
   .catch((error) => {
     console.log("Connection to database failed: " + error.message);
   });
-
-  module.exports.handler = serverless(app)
